@@ -1,4 +1,3 @@
-/** String processing exercise 1. */
 public class LowerCase {
     public static void main(String[] args) {  
         String str = args[0];
@@ -15,7 +14,7 @@ public class LowerCase {
         String newStr = "";
         for(int i = 0; i < s.length(); i++) {
             char ch = s.charAt(i);
-            if (65 <= (int)ch && (int)ch <= 90) {
+            if ((ch >= 'A') && (ch <= 'Z')) { 
                 ch += 32;
             }
             newStr += ch;

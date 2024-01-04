@@ -1,4 +1,3 @@
-/** String processing exercise 2. */
 public class UniqueChars {
     public static void main(String[] args) {  
         String str = args[0];
